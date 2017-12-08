@@ -1,0 +1,110 @@
+*
+{
+    
+    margin:0;
+    padding:0;
+}
+
+
+.row
+{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+
+
+body
+{
+    font-family:fantasy;
+}
+
+.colorsplash
+{
+    
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-30%,0%);
+    font-size: 200%;
+    font-weight: bold;
+}
+
+
+header
+{
+    
+    background-image:url(https://cdn.wccftech.com/wp-content/uploads/2016/11/Color-Splash-Blue.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: coer;
+}
+
+.colorsplash
+{
+    
+    color:white
+}
+
+.textundertitle
+{
+    position:absolute;
+    width:900px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,40%);
+    font-size: 80%;
+    font-weight: bold;
+    color:white
+
+}
+
+
+.main-nav
+{
+    list-style: none;
+    float:right;
+    margin-top: 60px;
+}
+
+
+.main-nav li
+{
+    
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.main-nav li a:hover
+{
+    color:#e67e22;
+    border-bottom:2px solid #e67e22;
+    transition:all 0.5s ease-in;
+    padding:10px 0;
+}
+
+
+.logo img
+{
+    height: 250px;
+    transform:translate(250%,40%);
+    float:left;
+    margin-top: 10px;
+}
+
+
+.btn
+{
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+}
